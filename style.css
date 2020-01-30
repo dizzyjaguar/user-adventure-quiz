@@ -46,6 +46,10 @@ label {
     color: rgb(23, 24, 58);
     font-size: 25px;
     background-color: rgb(108, 108, 108);
+    width: auto;
+    padding: 5px;
+    border-radius: 20%;
+    font-weight: 900;
 }
 
 

@@ -8,8 +8,9 @@ const questOne = document.getElementById('quest-1');
 // console.log(adventures.firstShow.title);
 
 const firstAdventure = adventures.firstShow;
-
+// creating a function or a for loop for doing this would be more efficient, try and refactor to that after.
 questOne.textContent = firstAdventure.title;
+questOne.href = '../quest/?id=' + firstAdventure.id;
 
 
 
