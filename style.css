@@ -1,0 +1,32 @@
+body {
+    font-weight: 700;
+    font-size: larger;
+    font-family: cursive;
+}
+
+button {
+    font-family: cursive;
+    font-size: larger;
+    border-radius: 2rem;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .7;
+}
+
+img {
+    max-width: auto;
+    height: 300px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-div{
+    margin-top: 300px;
+}
