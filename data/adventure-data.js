@@ -1,5 +1,5 @@
 //objects inside of objects, and then the choices are an array inside 
-const gigs = {
+const adventures = {
     firstShow: {
         id: 'firstShow',
         title: `Sittin' in at the Jazz Jam with the older Cats`,
@@ -26,9 +26,9 @@ const gigs = {
 };
         
         
-const adventures = [
-    gigs.firstShow
-];
+// const adventures = [
+//     gigs.firstShow
+// ];
 
 export default adventures;
 
