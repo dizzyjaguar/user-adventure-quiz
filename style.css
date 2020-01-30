@@ -8,11 +8,16 @@ button {
     font-family: cursive;
     font-size: larger;
     border-radius: 2rem;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 
 button:hover {
     cursor: pointer;
     opacity: .7;
+    background-color: blue;
+    color: white;
 }
 
 img {
