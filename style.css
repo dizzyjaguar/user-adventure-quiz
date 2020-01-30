@@ -1,4 +1,13 @@
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(43, 4, 82);
+}
+
 body {
+    
     font-weight: 700;
     font-size: larger;
     font-family: cursive;
@@ -16,13 +25,27 @@ button {
 button:hover {
     cursor: pointer;
     opacity: .7;
-    background-color: blue;
+    background-color: rgb(54, 0, 108);
     color: white;
 }
 
 img {
     max-width: auto;
     height: 300px;
+}
+
+input {
+    width: 150px;
+    height: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: larger;
+}
+
+label {
+    color: rgb(23, 24, 58);
+    font-size: 25px;
+    background-color: rgb(108, 108, 108);
 }
 
 
@@ -33,13 +56,33 @@ img {
 }
 
 .quest-list-div {
+    padding: 20px;
+    margin-top: 100px;
     width: 400px;
     height: 400px;
-    border: 1px solid black;
+    border: 3px solid black;
     text-align: center;
     font-size: larger;
+    transition-property: background, border, box-shadow ;
+    transition-duration: 1s;
+    transition-timing-function: linear;
 }
 
-#form-div{
+.quest-list-div:hover {
+    background-color: rgb(73, 73, 196);
+    border: 10px solid black;
+    
+    
+}
+
+#start-page-body {
+    background-image: url('https://observer.com/wp-content/uploads/sites/2/2016/09/52nd-street.jpg?quality=80');
+}
+
+#quest-list-body {
+    background-image: url('https://cdn.vox-cdn.com/thumbor/s4U4TGdOqY0P61oBmXtlX9zohNk=/0x0:800x605/1200x900/filters:focal(336x239:464x367):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/62585574/Club_Alabam.0.0.jpg');
+}
+
+#form-div {
     margin-top: 300px;
 }
