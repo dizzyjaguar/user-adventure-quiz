@@ -1,5 +1,6 @@
 import adventures from '../data/adventure-data.js';
 import findById from '../utils/find-by-id.js';
+import createChoice from './create-choice.js';
 import { getUser, saveUser } from '../data/user-storage.js';
 
 // i need more clarification on what this does
@@ -30,3 +31,9 @@ detailTitle.textContent = quest.title;
 detailLocation.textContent = quest.location;
 detailImg.src = quest.image;
 detailStory.textContent = quest.storyline;
+
+quest['options'].forEach(choice => {
+    const choiceDOM = createChoice(choice);
+    choices.appendChild(choiceDOM);   
+});
+
