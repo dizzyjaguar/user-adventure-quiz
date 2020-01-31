@@ -13,7 +13,8 @@ TO DO:
 
 - render state to page
 
-
+-Make find by ID fucntion 
+-Use the query params to find the quest by the id and then render everything by that specific quest
 
 
 
