@@ -4,7 +4,7 @@ const adventures = {
         id: 'firstShow',
         title: `Sittin' in at the Jazz Jam with the older Cats`,
         location: 'Some rough bar downtown',
-        image: 'insert a photo here of a crazy bar from the early 1900s',
+        image: 'https://cdn2.jazztimes.com/2016/03/Sidebar_RoundMidnight.jpg',
         storyline: 'You pull up to the bar and are feeling pretty nervous to play, you notice some of the older players who are well known and skilled. What should you do first?',
         //
         options: [{
