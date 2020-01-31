@@ -20,5 +20,5 @@ loginForm.addEventListener('submit', function(event) {
     saveUser(user);
 
     // now need to redirect to another window location
-    // window.location = 'quests';
+    window.location = 'quests/quest-list.html';
 })
